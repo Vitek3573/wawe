@@ -29,9 +29,14 @@
     letter-spacing: 0.6px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
+    padding: 0 3px 5px;
+    transition: all 0.5s;
+}
+.menu__list-link:hover{
+    border-bottom: 1px solid #00B2A0;
 }
 .menu__list-item + .menu__list-item{
-    margin-left: 45px;
+    margin-left: 39px;
 }
 .header__content{
     display: flex;
@@ -46,13 +51,17 @@
     line-height: 234px;
     letter-spacing: 0.6px;
     color: #0d302c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 .header__subtitel{
     margin-bottom: auto;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.6px;
-    color: #0d302c;
+    color: #000;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
 }
 .header__icon{
     margin-bottom: 92px;
