@@ -1,12 +1,14 @@
 @import 'vars.scss';
 @import 'global.scss';  
 .header{ 
-    background-image: url('../images/header__bg.jpg');
+    background-image: linear-gradient(180deg, #01353E 0%, rgba(51, 51, 51, 0.595076) 31.64%, rgba(51, 51, 51, 0.222586) 74.35%, rgba(51, 51, 51, 0) 99.87%), url('../images/header__bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     min-height: 100vh;
+    
 }
+
 .header__top-inner{
     display: flex;
     justify-content: space-between;
@@ -32,5 +34,26 @@
     margin-left: 45px;
 }
 .header__content{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: calc(100vh - 120px);  
+}
+.header__titel{
+    margin-top: auto;
+    font-size: 200px;
+    line-height: 234px;
+    letter-spacing: 0.6px;
+    color: #0d302c;
+}
+.header__subtitel{
+    margin-bottom: auto;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    color: #0d302c;
+}
+.header__icon{
+    margin-bottom: 92px;
 }
