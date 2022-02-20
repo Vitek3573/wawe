@@ -66,3 +66,22 @@
 .header__icon{
     margin-bottom: 92px;
 }
+.about__inner{
+    text-align: center;
+}
+.about__title{
+    margin-top: 189px;
+    margin-bottom: 96px;
+}
+.about__text{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.about__text-list{
+    margin-right: 120px;
+    text-align: left;
+}
+.about__text-list p{
+    margin-bottom: 30px;
+}
