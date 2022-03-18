@@ -292,7 +292,8 @@
     margin-bottom: 200px;
 }
 .slider-blog {
-    background: linear-gradient(180deg, #01353e 0%, rgba(36, 33, 33, 0.5)), url("../images/bg__blog.jpg") center no-repeat;
+    background: linear-gradient(180deg, #01353e 0%, rgba(36, 33, 33, 0.5)),
+        url("../images/bg__blog.jpg") center no-repeat;
     margin-bottom: 200px;
 }
 .slider-blog__inner {
@@ -332,4 +333,72 @@
 }
 .slick-dots li + li {
     margin-left: 15px;
+}
+.title__team {
+    margin-bottom: 200px;
+}
+.team__items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.team__item img {
+    margin-bottom: 25px;
+}
+.team__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+.team__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.pricing {
+    background-color: #f8f8f8;
+}
+.pricing__title {
+    padding-top: 200px;
+    margin-bottom: 180px;
+}
+.pricing__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.pricing__inner .pricing__item {
+    background-color: #fff;
+    padding: 45px 42px;
+}
+.pricing__item li {
+    font-weight: 400;
+}
+.pricing__item-title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #01353e;
+    padding-bottom: 38px;
+    text-align: center;
+}
+.pricing__item-sum {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #01353e;
+    padding-top: 41px;
+    text-align: center;
+}
+.pricing__item li + li {
+    margin-top: 20px;
+}
+.pricing__item .sum-1 {
+    margin-top: 96px;
+}
+.pricing__item-sum span {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 3px;
 }
